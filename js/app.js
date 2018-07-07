@@ -13,7 +13,7 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
     })
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/', {templateUrl: 'partials/homeView.html', controller: 'HomeCtrl'});
-        $routeProvider.when('/view1', {templateUrl: 'partials/BeautifulYear.html'});
+        $routeProvider.when('/view1', {templateUrl: 'partials/ndarray.html'});
         $routeProvider.when('/view2', {templateUrl: 'partials/BlackSquare.html'});
         $routeProvider.when('/view3', {templateUrl: 'partials/BoyorGirl.html'});
         $routeProvider.when('/view4', {templateUrl: 'partials/CalculatingFunction.html'});
