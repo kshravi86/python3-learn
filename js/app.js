@@ -17,7 +17,7 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
         $routeProvider.when('/view2', {templateUrl: 'partials/arange.html'});
         $routeProvider.when('/view3', {templateUrl: 'partials/asarray.html'});
         $routeProvider.when('/view4', {templateUrl: 'partials/ndarray basics.py.html'});
-        $routeProvider.when('/view5', {templateUrl: 'partials/ChatRoom.html'});
+        $routeProvider.when('/view5', {templateUrl: 'partials/frombuffer.py.html'});
         $routeProvider.when('/view6', {templateUrl: 'partials/CielandDancing.html'});
         $routeProvider.when('/view7', {templateUrl: 'partials/BusinessTrip.html'});
         $routeProvider.when('/view8', {templateUrl: 'partials/AmusingJoke.html'});
