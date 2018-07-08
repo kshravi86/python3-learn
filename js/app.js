@@ -17,11 +17,11 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
         $routeProvider.when('/view2', {templateUrl: 'partials/do_if.py.html'});
         $routeProvider.when('/view3', {templateUrl: 'partials/do_print.py.html'});
         $routeProvider.when('/view4', {templateUrl: 'partials/do_while.py.html'});
-        $routeProvider.when('/view5', {templateUrl: 'partials/frombuffer.py.html'});
-        $routeProvider.when('/view6', {templateUrl: 'partials/data types.py.html'});
-        $routeProvider.when('/view7', {templateUrl: 'partials/BusinessTrip.html'});
-        $routeProvider.when('/view8', {templateUrl: 'partials/AmusingJoke.html'});
-		$routeProvider.when('/view9',{templateUrl:'partials/ChoosingTeams.html'});
+        $routeProvider.when('/view5', {templateUrl: 'partials/the_dict.py.html'});
+        $routeProvider.when('/view6', {templateUrl: 'partials/the_list.py.html'});
+        $routeProvider.when('/view7', {templateUrl: 'partials/the_set.py.html'});
+        $routeProvider.when('/view8', {templateUrl: 'partials/the_tuple.py.html'});
+		$routeProvider.when('/view9',{templateUrl:'partials/the_tuple.py.html'});
        $routeProvider.when('/view10',{templateUrl:'partials/EvenOdds.html'});
 	   $routeProvider.when("/view11",{templateUrl:'partials/DieRoll.html'});
 	   $routeProvider.when("/view12",{templateUrl:'partials/CheapTravel.html'});
