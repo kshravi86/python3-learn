@@ -13,10 +13,10 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
     })
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/', {templateUrl: 'partials/homeView.html', controller: 'HomeCtrl'});
-        $routeProvider.when('/view1', {templateUrl: 'partials/ndarray.html'});
-        $routeProvider.when('/view2', {templateUrl: 'partials/arange.html'});
-        $routeProvider.when('/view3', {templateUrl: 'partials/asarray.html'});
-        $routeProvider.when('/view4', {templateUrl: 'partials/ndarray basics.py.html'});
+        $routeProvider.when('/view1', {templateUrl: 'partials/do_for.py.html'});
+        $routeProvider.when('/view2', {templateUrl: 'partials/do_if.py.html'});
+        $routeProvider.when('/view3', {templateUrl: 'partials/do_print.py.html'});
+        $routeProvider.when('/view4', {templateUrl: 'partials/do_while.py.html'});
         $routeProvider.when('/view5', {templateUrl: 'partials/frombuffer.py.html'});
         $routeProvider.when('/view6', {templateUrl: 'partials/data types.py.html'});
         $routeProvider.when('/view7', {templateUrl: 'partials/BusinessTrip.html'});
