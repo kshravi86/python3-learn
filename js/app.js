@@ -22,8 +22,8 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
         $routeProvider.when('/view7', {templateUrl: 'partials/the_set.py.html'});
         $routeProvider.when('/view8', {templateUrl: 'partials/the_tuple.py.html'});
 		$routeProvider.when('/view9',{templateUrl:'partials/the_tuple.py.html'});
-       $routeProvider.when('/view10',{templateUrl:'partials/EvenOdds.html'});
-	   $routeProvider.when("/view11",{templateUrl:'partials/DieRoll.html'});
+       $routeProvider.when('/view10',{templateUrl:'partials/do_bytesio.py.html'});
+	   $routeProvider.when("/view11",{templateUrl:'partials/do_stringio.py.html'});
 	   $routeProvider.when("/view12",{templateUrl:'partials/CheapTravel.html'});
 	   $routeProvider.when("/view13",{templateUrl:'partials/Drinks.html'});
 	   $routeProvider.when("/view14",{templateUrl:'partials/EpicGame.html'});
