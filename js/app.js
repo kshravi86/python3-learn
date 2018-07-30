@@ -27,7 +27,7 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
 	   $routeProvider.when("/view12",{templateUrl:'partials/use_json.py.html'});
 	   $routeProvider.when("/view13",{templateUrl:'partials/28. multi line print.html'});
 	   $routeProvider.when("/view14",{templateUrl:'partials/24. python lists vs tuples.html'});
-	   $routeProvider.when("/view15",{templateUrl:'partials/Expression.html'});
+	   $routeProvider.when("/view15",{templateUrl:'partials/P07_PrimeNumber.html'});
 	   $routeProvider.when("/view16",{templateUrl:'partials/FancyFence.html'});
 	   $routeProvider.when("/view17",{templateUrl:'partials/CinemaLine.html'});
 	   $routeProvider.when("/view18",{templateUrl:'partials/FlippingGame.html'});
