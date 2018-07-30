@@ -31,7 +31,7 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
 	   $routeProvider.when("/view16",{templateUrl:'partials/P13_Palindrome.html'});
 	   $routeProvider.when("/view17",{templateUrl:'partials/P10_LCM.py.html'});
 	   $routeProvider.when("/view18",{templateUrl:'partials/P17_EvenOdd.py.html'});
-	   $routeProvider.when("/view19",{templateUrl:'partials/FreeCash.html'});
+	   $routeProvider.when("/view19",{templateUrl:'partials/P72_PythonLambda.py.html'});
 	  $routeProvider.when("/view20",{templateUrl:'partials/Football.html'});
 	  $routeProvider.when("/view21",{templateUrl:'partials/Game.html'});
 	  $routeProvider.when("/view22",{templateUrl:'partials/cAPSlOCK.html'});
